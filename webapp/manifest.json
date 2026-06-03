@@ -126,6 +126,23 @@
           "name": "sap.suite.ui.generic.template.ListReport",
           "list": true,
           "settings": {
+            "quickVariantSelection": {
+              "showCounts": true,
+              "variants": {
+                "0": {
+                  "key": "All",
+                  "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#All"
+                },
+                "1": {
+                  "key": "Open",
+                  "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#Open"
+                },
+                "2": {
+                  "key": "Accepted",
+                  "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#Accepted"
+                }
+              }
+            },
             "condensedTableLayout": true,
             "smartVariantManagement": true,
             "enableTableFilterInPageVariant": true,
